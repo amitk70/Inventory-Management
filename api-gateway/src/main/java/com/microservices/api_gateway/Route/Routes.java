@@ -26,6 +26,7 @@ public class Routes {
                 .build();
     }
 
+    
     @Bean
     public RouterFunction<ServerResponse> inventoryServiceRoute(){
         return GatewayRouterFunctions.route("inventory-service")
